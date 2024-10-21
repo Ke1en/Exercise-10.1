@@ -12,5 +12,6 @@ abstract class Person {
     }
 
     abstract void performDuty();
+
     abstract void callPersonToDuty(Person person);
 }

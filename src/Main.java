@@ -52,16 +52,12 @@ public class Main {
         principal.manage();
 
         System.out.println();
-        System.out.println();
 
-        Person person = new Student("Дмитрий",25,"7A");
-        person.callPersonToDuty(person);
+        School school = new School();
+        school.callPersonToDuty(student);
+        school.callPersonToDuty(teacher);
+        school.callPersonToDuty(principal);
 
-        Person person1 = new Teacher("Алексей", 38, "Мат. анализ");
-        person1.callPersonToDuty(person1);
-
-        Person person2 = new Principal("Анатолий", 51, 9);
-        person2.callPersonToDuty(person2);
-
+        // Изначально вызывали сами себя
     }
 }
