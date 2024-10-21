@@ -19,11 +19,6 @@ public class Student extends Person{
         System.out.println("Студент " + getName() + " учится в классе " + grade);
     }
 
-    @Override
-    void callPersonToDuty(Person person) {
-        performDuty();
-    }
-
     public void study() {
         System.out.println("Студент " + getName() + " делает домашнее задание");
     }

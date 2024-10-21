@@ -19,11 +19,6 @@ public class Principal extends Person{
         System.out.println("Директор " + getName() + " управляет школой с опытом в " + yearsOfExperience + " лет");
     }
 
-    @Override
-    void callPersonToDuty(Person person) {
-        performDuty();
-    }
-
     public void manage() {
         System.out.println("Директор " + getName() + " проводит собрание с учителями");
     }
