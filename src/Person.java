@@ -11,5 +11,9 @@ abstract class Person {
         return name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     abstract void performDuty();
 }
